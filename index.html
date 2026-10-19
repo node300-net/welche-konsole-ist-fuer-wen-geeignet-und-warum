@@ -4,94 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welche Konsole ist für wen geeignet?</title>
-    <meta
-      name="description"
-      content="Vergleich von Konsolen und Handhelds – für wen sie geeignet sind und warum."
-    />
+    <meta name="description" content="Vergleich von Konsolen und Handhelds – für wen sie geeignet sind und warum." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="hero">
-      <nav class="topbar container">
+      <nav class="container topbar">
         <div class="brand">KonsoleFinder</div>
         <div class="nav-links">
           <a href="#zielgruppen">Zielgruppen</a>
-          <a href="#vergleich">Vergleich</a>
-          <a href="#empfehlung">Top Picks</a>
+          <a href="#geraete">Geräte</a>
+          <a href="#empfehlung">Empfehlung</a>
         </div>
       </nav>
 
-      <div class="hero-content container">
+      <div class="container hero-inner">
         <div class="hero-copy">
-          <p class="eyebrow">Für jeden Spielstil die passende Wahl</p>
-          <h1>Welche Konsole ist für wen geeignet?</h1>
+          <p class="eyebrow">Gaming-Entscheidung leicht gemacht</p>
+          <h1>Welche Konsole passt zu dir?</h1>
           <p class="lead">
-            Ob du zu Hause spielen, unterwegs gamingen, perfekt für Familien,
-            Technikfans oder Budget-Spieler bist – hier findest du eine klare
-            Empfehlung.
+            Wir vergleichen aktuelle Konsolen, Handhelds und Retro-Systeme – mit klaren
+            Empfehlungen für Familien, Technikfans, Casual-Spieler und Mobile Gamer.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#zielgruppen">Zielgruppen ansehen</a>
-            <a class="button secondary" href="#vergleich">Vergleich starten</a>
+            <a class="button primary" href="#zielgruppen">Zielgruppen</a>
+            <a class="button secondary" href="#geraete">Geräte vergleichen</a>
           </div>
         </div>
 
         <div class="hero-panel">
-          <h2>Top Empfehlungen</h2>
+          <div class="mini-label">Top Picks</div>
           <ul>
-            <li><strong>Beste Allrounder:</strong> Xbox Series X</li>
-            <li><strong>Beste Grafik:</strong> PS5 Pro</li>
-            <li><strong>Beste für unterwegs:</strong> Steam Deck OLED</li>
-            <li><strong>Beste Familienwahl:</strong> Nintendo Switch OLED</li>
-            <li><strong>Beste Budget-Option:</strong> Xbox Series S</li>
+            <li><span>Allrounder</span><strong>Xbox Series X</strong></li>
+            <li><span>Beste Grafik</span><strong>PS5 Pro</strong></li>
+            <li><span>Mobil</span><strong>Steam Deck OLED</strong></li>
+            <li><span>Familien</span><strong>Switch OLED</strong></li>
+            <li><span>Budget</span><strong>Xbox Series S</strong></li>
           </ul>
         </div>
       </div>
     </header>
 
     <main>
-      <section id="zielgruppen" class="container section">
-        <div class="section-heading">
-          <p class="eyebrow">Zielgruppen</p>
-          <h2>Für wen ist welches Gerät geeignet?</h2>
+      <section id="zielgruppen" class="section container">
+        <div class="section-head">
+          <p class="eyebrow dark">Zielgruppen</p>
+          <h2>Für wen ist was geeignet?</h2>
         </div>
 
-        <div class="grid cards-5">
-          <article class="info-card">
-            <span class="tag tag-green">Casual</span>
+        <div class="card-grid five-up">
+          <article class="info-card green">
+            <span class="tag">Casual</span>
             <h3>Casual-Spieler</h3>
-            <p>
-              Einfach, entspannt und ohne Technik-Overkill – ideal für kurze
-              Sessions und unkomplizierte Spaß-Gaming-Stunden.
-            </p>
+            <p>Einfach, entspannt und perfekt für kurze Sessions.</p>
             <ul>
               <li>Nintendo Switch OLED</li>
-              <li>Nintendo Switch 2</li>
+              <li>Switch 2</li>
               <li>Xbox Series S</li>
             </ul>
           </article>
 
-          <article class="info-card">
-            <span class="tag tag-blue">Familien</span>
+          <article class="info-card blue">
+            <span class="tag">Familien</span>
             <h3>Familien & Mehrspieler</h3>
-            <p>
-              Gute Auswahl an lokalen Multiplayer-Spielen und couch-gaming
-              Freuden für Kinder, Erwachsene und Freunde.
-            </p>
+            <p>Ideal für Couch-Gaming, co-op-Spiele und gemeinsame Abende.</p>
             <ul>
-              <li>Nintendo Switch OLED</li>
+              <li>Switch OLED</li>
               <li>Switch 2</li>
               <li>Xbox Series X</li>
             </ul>
           </article>
 
-          <article class="info-card">
-            <span class="tag tag-purple">Leistung</span>
+          <article class="info-card purple">
+            <span class="tag">Leistung</span>
             <h3>Technikfans</h3>
-            <p>
-              Wer maximale Grafik, starke SSD-Geschwindigkeit und die beste
-              Bildqualität will, kommt hier an die richtige Stelle.
-            </p>
+            <p>Für maximale Grafik, schnellste Ladezeiten und starke Hardware.</p>
             <ul>
               <li>PS5 Pro</li>
               <li>PS5</li>
@@ -99,27 +89,21 @@
             </ul>
           </article>
 
-          <article class="info-card">
-            <span class="tag tag-orange">Mobil</span>
+          <article class="info-card orange">
+            <span class="tag">Mobil</span>
             <h3>Mobile Gamer</h3>
-            <p>
-              Für Leute, die unterwegs spielen, im Bett oder im Zug ihre Spiele
-              mitnehmen wollen.
-            </p>
+            <p>Wenn du unterwegs, im Bett oder auf Reisen spielen willst.</p>
             <ul>
               <li>Steam Deck OLED</li>
               <li>Switch OLED</li>
-              <li>PlayStation Portal</li>
+              <li>ROG Ally</li>
             </ul>
           </article>
 
-          <article class="info-card">
-            <span class="tag tag-red">Budget</span>
+          <article class="info-card red">
+            <span class="tag">Budget</span>
             <h3>Retro & Budget</h3>
-            <p>
-              Wenn du wenig Geld ausgeben willst oder gerne Klassiker und
-              günstigere Geräte nutzt.
-            </p>
+            <p>Günstig, nostalgisch und ideal für Klassiker oder Einsteiger.</p>
             <ul>
               <li>Xbox 360</li>
               <li>PS4</li>
@@ -129,135 +113,128 @@
         </div>
       </section>
 
-      <section id="vergleich" class="section section-alt">
+      <section id="geraete" class="section alt-section">
         <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Vergleich</p>
-            <h2>Geräteübersicht</h2>
+          <div class="section-head">
+            <p class="eyebrow dark">Geräte</p>
+            <h2>Die wichtigsten Konsolen und Handhelds im Überblick</h2>
           </div>
 
-          <div class="device-grid">
-            <article class="device-card">
+          <div class="card-grid four-up">
+            <article class="mini-card">
               <h3>Xbox Series S</h3>
-              <p class="device-type">Konsole</p>
-              <p>Ideal für günstigen Einstieg, kleine Räume und Game Pass-Nutzer.</p>
+              <span>Konsole</span>
+              <p>Preiswert, klein und gut für Game Pass-Nutzer.</p>
             </article>
-
-            <article class="device-card">
+            <article class="mini-card">
               <h3>Xbox Series X</h3>
-              <p class="device-type">Konsole</p>
-              <p>Beste Allrounder-Option für Familien, Leistung und Spielbibliothek.</p>
+              <span>Konsole</span>
+              <p>Beste Allrounder-Option mit viel Leistung und großem Angebot.</p>
             </article>
-
-            <article class="device-card">
+            <article class="mini-card">
               <h3>PS5 Pro</h3>
-              <p class="device-type">Konsole</p>
-              <p>Top-Wahl für maximale Grafik, 4K-Performance und Technikfans.</p>
+              <span>Konsole</span>
+              <p>Für höchste Grafik, mehr Frames und hochwertige Präsentation.</p>
             </article>
-
-            <article class="device-card">
-              <h3>PS5</h3>
-              <p class="device-type">Konsole</p>
-              <p>Perfekt für Exklusivtitel, starke Story-Spiele und Qualitäts-Gameplay.</p>
+            <article class="mini-card">
+              <h3>PlayStation 5</h3>
+              <span>Konsole</span>
+              <p>Sehr starke Exklusivtitel und moderne Leistung.</p>
             </article>
-
-            <article class="device-card">
-              <h3>PS5 Slim Disc</h3>
-              <p class="device-type">Konsole</p>
-              <p>Für Spieler, die physische Spiele mögen und Platz sparen wollen.</p>
+            <article class="mini-card">
+              <h3>PS5 Slim</h3>
+              <span>Konsole</span>
+              <p>Platzsparend und perfekt für Spieler mit physischen Medien.</p>
             </article>
-
-            <article class="device-card">
+            <article class="mini-card">
               <h3>Steam Deck OLED</h3>
-              <p class="device-type">Handheld</p>
-              <p>Sehr gute Mischung aus Mobilität, Leistung und Steam-Ökosystem.</p>
+              <span>Handheld</span>
+              <p>Mobil, flexibel und ideal für PC-Gaming unterwegs.</p>
             </article>
-
-            <article class="device-card">
-              <h3>Steam Machine</h3>
-              <p class="device-type">PC/Steam-Box</p>
-              <p>Für PC-Fans mit Interesse an Flexibilität und modifizierbarer Hardware.</p>
+            <article class="mini-card">
+              <h3>Switch OLED</h3>
+              <span>Hybrid</span>
+              <p>Sehr familienfreundlich und ideal für Casual- und Nintendo-Spieler.</p>
             </article>
-
-            <article class="device-card">
-              <h3>Nintendo Switch OLED</h3>
-              <p class="device-type">Hybrid</p>
-              <p>Perfekt für Familien, Casual-Spieler und Nintendo-Exklusivtitel.</p>
+            <article class="mini-card">
+              <h3>Switch 2</h3>
+              <span>Hybrid</span>
+              <p>Die moderne Nintendo-Option für Familie und Hybrid-Gaming.</p>
             </article>
-
-            <article class="device-card">
-              <h3>Nintendo Switch 2</h3>
-              <p class="device-type">Hybrid</p>
-              <p>Ideal für Nintendo-Fans mit Wunsch nach modernem Hybrid-Gaming.</p>
-            </article>
-
-            <article class="device-card">
+            <article class="mini-card">
               <h3>PlayStation Portal</h3>
-              <p class="device-type">Streaming-Handheld</p>
-              <p>Sehr praktisch für PS5-Besitzer, die Remote Play nutzen wollen.</p>
+              <span>Streaming</span>
+              <p>Praktisch für Remote Play und PS5-Besitzer.</p>
             </article>
-
-            <article class="device-card">
+            <article class="mini-card">
               <h3>ASUS ROG Ally</h3>
-              <p class="device-type">Handheld</p>
-              <p>Flexible Windows-Option für PC-Spieler mit Mobilitätsanspruch.</p>
+              <span>Handheld</span>
+              <p>Flexible Windows-Lösung mit vielen Spielmöglichkeiten.</p>
             </article>
-
-            <article class="device-card">
-              <h3>MSI Claw 8 AI+</h3>
-              <p class="device-type">Handheld</p>
-              <p>Großer Bildschirm und starke Leistung für Portable-PC-Fans.</p>
-            </article>
-
-            <article class="device-card">
-              <h3>MSI Claw 8 EX AI+</h3>
-              <p class="device-type">Handheld</p>
-              <p>High-End-Variante für Technikfans und Enthusiasten.</p>
-            </article>
-
-            <article class="device-card">
+            <article class="mini-card">
               <h3>Lenovo Legion Go</h3>
-              <p class="device-type">Handheld</p>
-              <p>Guter Choice für Spieler mit großem Bildschirm und PC-Gameplay.</p>
+              <span>Handheld</span>
+              <p>Großer Bildschirm und gute Mobile-PC-Erfahrung.</p>
             </article>
-
-            <article class="device-card">
+            <article class="mini-card">
+              <h3>MSI Claw</h3>
+              <span>Handheld</span>
+              <p>Leistungsstarkes Handheld für Technikfans und PC-Spieler.</p>
+            </article>
+            <article class="mini-card">
               <h3>Xbox 360</h3>
-              <p class="device-type">Retro</p>
-              <p>Gut für Retro-Fans und Sammler mit Interesse an Klassikern.</p>
+              <span>Retro</span>
+              <p>Zum nostalgischen Spielen und für Retro-Fans.</p>
             </article>
-
-            <article class="device-card">
+            <article class="mini-card">
               <h3>PS4</h3>
-              <p class="device-type">Konsole</p>
-              <p>Preiswerte, sehr große Bibliothek und gute Option für Einsteiger.</p>
+              <span>Konsole</span>
+              <p>Günstiger Einstieg mit einer riesigen Spielebibliothek.</p>
+            </article>
+            <article class="mini-card">
+              <h3>Steam Machine</h3>
+              <span>PC/Steam-Box</span>
+              <p>Für PC-Experten und Spieler mit modifizierbarem Setup.</p>
+            </article>
+            <article class="mini-card">
+              <h3>Xbox 360</h3>
+              <span>Retro</span>
+              <p>Eine gute Wahl für Sammler und klassische Klassiker.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="empfehlung" class="container section">
-        <div class="section-heading">
-          <p class="eyebrow">Empfehlung</p>
-          <h2>Was passt zu deinem Spielstil?</h2>
+      <section id="empfehlung" class="section container">
+        <div class="section-head">
+          <p class="eyebrow dark">Empfehlung</p>
+          <h2>Unsere kurzen Empfehlungen</h2>
         </div>
 
-        <div class="recommendation-box">
-          <div>
-            <h3>Für klassische Wohnzimmer-Gaming</h3>
-            <p>Xbox Series X oder PlayStation 5</p>
+        <div class="recommend-grid">
+          <div class="recommend-box">
+            <h3>Für Zuhause & Allrounder</h3>
+            <p>Xbox Series X</p>
           </div>
-          <div>
-            <h3>Für maximale Grafik</h3>
+          <div class="recommend-box">
+            <h3>Für beste Grafik</h3>
             <p>PS5 Pro</p>
           </div>
-          <div>
+          <div class="recommend-box">
             <h3>Für unterwegs</h3>
-            <p>Steam Deck OLED oder Nintendo Switch OLED</p>
+            <p>Steam Deck OLED</p>
           </div>
-          <div>
+          <div class="recommend-box">
+            <h3>Für Familien</h3>
+            <p>Nintendo Switch OLED</p>
+          </div>
+          <div class="recommend-box">
             <h3>Für Budget</h3>
-            <p>Xbox Series S oder PS4</p>
+            <p>Xbox Series S</p>
+          </div>
+          <div class="recommend-box">
+            <h3>Für Retro-Fans</h3>
+            <p>Xbox 360 / PS4</p>
           </div>
         </div>
       </section>
